@@ -5,5 +5,4 @@
 ##### TensorFlow installed using pip
   * `pip install tensorflow`
 
-Run server.py with: `python -m flask run`
-Visit localhost:5000/bd
+Run server.py with: `python -m flask run`. Visit localhost:5000/bd
