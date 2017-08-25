@@ -17,7 +17,7 @@ def after_bd_response(fn):
     return fn
 
 
-# finds decorated functions and runs them
+# finds decorated functions and runs them after response has been sent
 @app.after_request
 def per_request_callback(res):
     # looks in g object
