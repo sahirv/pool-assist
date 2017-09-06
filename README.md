@@ -9,3 +9,9 @@ Run server.py with:
 `export FLASK_APP=server.py`    
 `python -m flask run`.  
 Visit localhost:5000/bd
+
+![Original](Images/orig.png)
+![Canny](Images/canny.png)
+![After](Images/after.png)
+
+
