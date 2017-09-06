@@ -10,8 +10,9 @@ Run server.py with:
 `python -m flask run`.  
 Visit localhost:5000/bd
 
-![Original](Images/after.png=300x)
-![Canny](Images/canny.png=300x)
-![After](Images/orig.png=300x)
+<img src="Images/after.png" alt="Original" style="width: 300px" />
+<img src="Images/canny.png" alt="Canny" style="width: 300px" />
+<img src="Images/orig.png" alt="After" style="width: 300px" />
+
 
 
