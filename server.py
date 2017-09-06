@@ -29,7 +29,7 @@ def per_request_callback(res):
 # handler for requests to ball detection (bd)
 @app.route("/bd")
 def ballDetection():
-    filename = bd.detectCircle()
+    filename = bd.createGraph()
 
     # image deletion after response is sent
     @after_bd_response
