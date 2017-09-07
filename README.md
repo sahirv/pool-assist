@@ -21,5 +21,14 @@ Hough circle transform applied to the previous canny edge detection
 results. The circles found are drawn on the first image for reference.  
 <img src="Images/orig.png" width="500" />
 
+Then by applying a mask above the coordinates of the circles
+and imposing original image on top of the mask, the individual balls
+can be extracted for classification.  
+<img src="Images/ex1.png" width="100" />
+<img src="Images/ex2.png" width="100" />
+<img src="Images/ex3.png" width="100" />
+<img src="Images/ex4.png" width="100" />
+<img src="Images/ex5.png" width="100" />
+
 
 
