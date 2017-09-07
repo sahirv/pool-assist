@@ -10,8 +10,13 @@ Run server.py with:
 `python -m flask run`.  
 Visit localhost:5000/bd
 
+Initial picture sent to the service
 <img src="Images/after.png" width="500" />
+The result of canny edge detection on the previous image having already undergone
+a 3x3 gaussian filter
 <img src="Images/canny.png" width="500" />
+Hough circle transform applied to the previous canny edge detection
+results. The circles found are drawn on the first image for reference.
 <img src="Images/orig.png" width="500" />
 
 

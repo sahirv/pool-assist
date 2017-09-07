@@ -3,7 +3,7 @@ import cv2
 
 from ball_classifier import classifyBall
 
-def createGraph():
+def findCircles():
     # read image - 0 is greyscale, 1 - color
     table_img = cv2.imread('training_sets/tables/example_table.png', 1)
     table_img_col = table_img.copy()
@@ -15,12 +15,12 @@ def createGraph():
 
     # perform canny edge detection
     table_canny = cv2.Canny(table_img_grey, 15, 30)
-    t_c_copy = table_canny.copy();
+    t_c_copy = table_canny.copy()
 
     # Perform Hough circle transform
     circles = cv2.HoughCircles(table_canny, cv2.HOUGH_GRADIENT, 1, 25, param1=90, param2=30, maxRadius=50, minRadius=14)
 
-    avgRadius = 0;
+    avgRadius = 0
     stripes = []
     solids = []
     cueBall = (0,0)
@@ -28,11 +28,11 @@ def createGraph():
     if circles is not None:
         print("Found circles")
         circles = np.round(circles[0, :]).astype("int")
-        tempRadius = 0;
+        tempRadius = 0
         for x, y, r in circles:
             if r <= 30:
                 # do hue analysis here for cue ball
-                tempRadius += r;
+                tempRadius += r
         avgRadius = tempRadius // 14
 
 
