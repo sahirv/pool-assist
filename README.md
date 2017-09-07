@@ -24,10 +24,12 @@ results. The circles found are drawn on the first image for reference.
 Then by applying a mask above the coordinates of the circles
 and imposing original image on top of the mask, the individual balls
 can be extracted for classification.  
-<img src="Images/ball1.png" width="250" />
-<img src="Images/ball2.png" width="250" />
-<img src="Images/ball3.png" width="250" />
-<img src="Images/ball4.png" width="250" />
+<img src="Images/ball1.png" width="260" />
+<img src="Images/ball2.png" width="260" />
+<img src="Images/ball3.png" width="260" />
+<img src="Images/ball4.png" width="260" />
+<img src="Images/ball5.png" width="260" />
+<img src="Images/ball6.png" width="260" />
 
 
 
