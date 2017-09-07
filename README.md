@@ -10,9 +10,9 @@ Run server.py with:
 `python -m flask run`.  
 Visit localhost:5000/bd
 
-<img src="Images/after.png" width="200" />
-<img src="Images/canny.png"/>
-<img src="Images/orig.png"/>
+<img src="Images/after.png" width="800" />
+<img src="Images/canny.png" width="800" />
+<img src="Images/orig.png" width="800" />
 
 
 
